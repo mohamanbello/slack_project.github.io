@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Developer Goals</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <h1>Mohaman Bello - Web Developer</h1>
+        <p>My Goals for the Next Two Years</p>
+        <div id="time-info">
+            <p>Current Time in UTC: <span data-testid="currentTimeUTC" id="currentTimeUTC"></span></p>
+            <p>Current Day: <span data-testid="currentDay" id="currentDay"></span></p>
+        </div>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#introduction">Introduction</a></li>
+            <li><a href="#goals">Goals</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="https://hng.tech/learn" data-testid="hngLink">HNG Learn</a></li>
+            <li><a href="https://keyword.dog" data-testid="keywordLink">Keyword Dog</a></li>
+            <li><a href="https://scrapeanyweb.site" data-testid="scrapeanywebLink">Scrape Any Web</a></li>
+        </ul>
+    </nav>
+    <section id="introduction">
+        <h2>Introduction</h2>
+        <p>As a passionate web developer, I am committed to continuous learning and growth in the field of web
+            development. Here are my goals for the next two years after graduation.</p>
+    </section>
+    <section id="goals">
+        <h2>Goals</h2>
+        <div class="goals-grid">
+            <div class="goal">
+                <h3>1. Master Front-End Technologies</h3>
+                <p>Deepen my knowledge in HTML, CSS, and JavaScript, and become proficient in frameworks like React and
+                    Vue.js.</p>
+            </div>
+            <div class="goal">
+                <h3>2. Expand Back-End Skills</h3>
+                <p>Learn and apply server-side technologies like Node.js, Express, and databases such as MongoDB and
+                    PostgreSQL.</p>
+            </div>
+            <div class="goal">
+                <h3>3. Build a Strong Portfolio</h3>
+                <p>Create and showcase diverse projects, including personal and freelance work, to demonstrate my
+                    capabilities.</p>
+            </div>
+            <div class="goal">
+                <h3>4. Contribute to Open Source</h3>
+                <p>Get involved in open source projects to collaborate with other developers and give back to the
+                    community.</p>
+            </div>
+            <div class="goal span">
+                <h3>5. Stay Updated with Trends</h3>
+                <p>Keep up with the latest industry trends and best practices through continuous learning and attending
+                    conferences.</p>
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <h2>Contact</h2>
+        <form id="contactForm">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+        <div id="formMessage"></div>
+    </section>
+    <footer>
+        <p>© Mohaman Bello</p>
+    </footer>
+    <script src="main.js"></script>
+</body>
+
+</html>
